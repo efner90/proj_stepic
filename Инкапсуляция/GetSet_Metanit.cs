@@ -97,6 +97,10 @@ namespace proj_stepic.Инкапсуляция
 
     class Person5
     {
+        public Person5()
+        {
+        }
+
         public Person5(string name) => Name=name;
         public string Name { get; init; } //= "Undefined";
     }
@@ -117,7 +121,7 @@ namespace proj_stepic.Инкапсуляция
 
     internal class GetSet_Metanit
     {
-        static void Main(string[] args)
+        static void MainX(string[] args)
         {
             Person5 person5 = new();
             //person5.Name = "Bob"; после инициализации изменить значение нельзя
