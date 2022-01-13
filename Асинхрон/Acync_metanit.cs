@@ -45,7 +45,7 @@ namespace proj_stepic.Асинхрон
             }
         }
 
-        static void Main()
+        static void MainX()
         {
             //FactorialAcync(); //вызов асинхронного метода
             FactorialAcync(5);
